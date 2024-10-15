@@ -29,3 +29,8 @@ delta-tuning (优化部分参数，小参数驱动大模型）（千分之一，
 而prompt-learning，相当于是给定任务（如情感分析），加入上下文之后，相当于增加了一句话让其预测其情感(选词接龙时，会让其选择情感上的词），如：
 pre-training: I like eating [mask]
 prompt-learning:I like eating apple. It was [mask](postive or negative)
+
+策略：
+①预训练模型选择(auto-regressive（主流，如GPT）,masked lm,encoder-decoder（T5，适合NLU理解性任务））
+②templete
+③

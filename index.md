@@ -24,4 +24,8 @@ seq2seq:任务目标转换为具体的句子，而不再是一个具体的分类
 delta-tuning (优化部分参数，小参数驱动大模型）（千分之一，万分之一的参数微调）
 
 # prompt-learning的基本组成与流程
-fine-tuning
+
+预训练过程是mask掉后面的词语，模型训练的目标是预测后一个词。
+而prompt-learning，相当于是给定任务（如情感分析），加入上下文之后，相当于增加了一句话让其预测其情感(选词接龙时，会让其选择情感上的词），如：
+pre-training: I like eating [mask]
+prompt-learning:I like eating apple. It was [mask](postive or negative)

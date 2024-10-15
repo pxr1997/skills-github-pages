@@ -16,9 +16,12 @@ N-gram：实际上用2或3，因为太长的句子，训练预料很少，也无
 
 # prompt-learning和delta-learning背景和概述
 PLM（预训练语言模型）
-PLM具有universl能力，但是下游具体任务还是需要适配？因此有了这两种方式去适配
+PLM具有universl能力，但是下游具体任务还是需要适配(fine-tuning),因此有了这两种方式去适配
 
 seq2seq:任务目标转换为具体的句子，而不再是一个具体的分类数字或者是概率，将任务训练统一到更高层次的纬度
 仍然需要微调适配下游任务，但在GPT-3之后，prompt出现了
 
 delta-tuning (优化部分参数，小参数驱动大模型）（千分之一，万分之一的参数微调）
+
+# prompt-learning的基本组成与流程
+fine-tuning

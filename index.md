@@ -33,4 +33,10 @@ prompt-learning:I like eating apple. It was [mask](postive or negative)
 策略：
 ①预训练模型选择(auto-regressive（主流，如GPT）,masked lm,encoder-decoder（T5，适合NLU理解性任务））
 ②templete
+来源：
+人为构造
+自动生成（如某些搜索算法）
+最优prompt可能并不是完全符合人的直觉，机器自动生成的启示
 ③
+
+

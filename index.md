@@ -45,5 +45,19 @@ prompt-learning:I like eating apple. It was [mask](postive or negative)
 下游任务适配，其实质对于语言模型来说只是概率分布的选择，对模型输出的概率分布如何筛选是一个关键性的问题（分类、情感分析）
 
 
+# delta tuning  
+
+思想：四两拨千斤，微调部分参数  
+
+delta object: 具象化该任务的参数（可能只有100M），只是激发出预训练模型本身的universal能力  
+
+
+<ul>方式：
+  <li>增量式：重新额外加入参数，其他参数不变</li>
+  <li>指定式：部分参数改变</li>
+  <li>重参数化式：低秩矩阵完成，认为任务很简单</li>
+</ul>
+
+
 
 

@@ -31,13 +31,17 @@ pre-training: I like eating [mask]
 prompt-learning:I like eating apple. It was [mask](postive or negative)
 
 策略：
-①预训练模型选择(auto-regressive（主流，如GPT）,masked lm,encoder-decoder（T5，适合NLU理解性任务））
+①预训练模型选择(auto-regressive（主流，如GPT）,masked lm,encoder-decoder（T5，适合NLU理解性任务））  
+
 ②templete
 来源：
 人为构造
 自动生成（如某些搜索算法）
-最优prompt可能并不是完全符合人的直觉，机器自动生成的启示
-③
+最优prompt可能并不是完全符合人的直觉，机器自动生成的启示  
+
+③映射（verbailzer)
+
+下游任务适配，其实质对于语言模型来说只是概率分布的选择，对模型输出的概率分布如何筛选是一个关键性的问题（分类、情感分析）
 
 
 

@@ -74,3 +74,4 @@ LoRA:认为是低秩矩阵，强行低秩分解，节省计算量
 # openPrompt工具包
 # openDelta 工具包
 
+PTM（Pre-trained Model）（预训练模型）

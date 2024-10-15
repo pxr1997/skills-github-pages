@@ -58,6 +58,19 @@ delta object: 具象化该任务的参数（可能只有100M），只是激发�
   <li>重参数化式：低秩矩阵完成，认为任务很简单</li>
 </ul>
 
+增量式：
 
+adapter-tuning:简单神经网络
 
+指定式:
+
+BitFit:只微调其中的bias
+
+重参数化：
+LoRA:认为是低秩矩阵，强行低秩分解，节省计算量
+
+随着模型增大：delta-tuning结构设计变得不重要，量变引起质变的体现。
+
+# openPrompt工具包
+# openDelta 工具包
 
